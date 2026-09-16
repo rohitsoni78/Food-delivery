@@ -103,6 +103,7 @@ const Home = () => {
               price={item.price}
               id={item.id}
               type={item.food_type}
+              setShowLogin={setShowLogin}
             />
           ))
         ) : (

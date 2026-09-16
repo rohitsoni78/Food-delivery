@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux"
 import { AddItem } from "../redux/cartSlice"
 import { toast } from "react-toastify"
 
-const Card = ({ name, image,id, price, type }) => {
+const Card = ({ name, image, id, price, type, setShowLogin }) => {
   let dispatch=useDispatch()
   return (
     <div className="w-75 h-100 bg-white p-4 rounded-xl flex flex-col gap-3 shadow-lg hover:shadow-xl hover:border-2 border-green-300 transition-all duration-300">
